@@ -11,6 +11,5 @@ export const hostnameCanisterIdMap: Map<string, Principal> = new Map(
     'dscvr.one': Principal.from('h5aet-waaaa-aaaab-qaamq-cai'),
     'dscvr.ic0.app': Principal.from('h5aet-waaaa-aaaab-qaamq-cai'),
     'personhood.ic0.app': Principal.from('g3wsl-eqaaa-aaaan-aaaaa-cai'),
-    'payments-sw.pages.dev':  Principal.from('sxfbn-dyaaa-aaaap-qbgca-ca'),
   })
 );
