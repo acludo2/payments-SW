@@ -24,6 +24,7 @@ export async function updateCallHandler(
     body: httpRequest.body,
     headers: httpRequest.headers,
   });
+  console.log("canister id",canisterId)
   const streamedBody = await streamBody(agent, httpResponse, canisterId);
   const decodedBody = decodeBody(streamedBody, httpResponse.headers);
   const filteredResponseHeaders = filterResponseHeaders(httpResponse.headers);
